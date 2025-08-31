@@ -3,7 +3,7 @@ if (process.env.NODE_ENV!="production") {
 }
 
 
-const express = require("express");
+const express = requir("express");
 const app = express();
 const mongoose = require("mongoose");
 const path = require("path");
@@ -89,3 +89,4 @@ app.listen(8080, () => {
     
 
 });
+
